@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/goto_player_activity"
+        android:icon="@drawable/ic_play_arrow_black_24dp"
+        android:title="@string/player"
+        app:showAsAction="ifRoom" />
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toggle_sort"
+        android:icon="@drawable/ic_sort_black_24dp"
+        android:title="@string/sort"
+        app:showAsAction="ifRoom" />
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/about"
+        android:title="@string/about"
+        app:showAsAction="never" />
+</menu>

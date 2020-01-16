@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AmpacheAlbumPlayer</string>
+    <string name="no_internet_access_abort">Berechtigungen abgelehnt, Die App kann nicht benutzt werden ohne Netzwerk Zugriff</string>
+    <string name="no_config">Ampache Server Einstellungen unvollständig, starte Konfiguration</string>
+    <string name="settings">Einstellungen</string>
+    <string name="ampache_server_url">Adresse des Ampache servers</string>
+    <string name="ampache_user">Ampache Benutzername</string>
+    <string name="ampache_password">Ampache Passwort</string>
+    <string name="save">Speichern</string>
+    <string name="player_service_description">Audio Player Service</string>
+    <string name="player_notification_title">Ampache Player</string>
+    <string name="player_notification_message">Ampache Player</string>
+    <string name="notification_chname">AmpachePlayerNotificationChannel</string>
+    <string name="notification_chdescription">Ampache Player Service notification channel</string>
+    <string name="sort">Sortierung</string>
+    <string name="album_activity">Albenauswahl</string>
+    <string name="player">Player</string>
+    <string name="about">Über</string>
+    <string name="licenses">Lizenzen</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="old_dev_no_enc">Passwort kann nicht verschlüsselt auf dem Gerät gespeichert werden (Android vor 4.4)</string>
+</resources>
