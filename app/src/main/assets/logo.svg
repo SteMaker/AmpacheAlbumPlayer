@@ -17,7 +17,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="logo.svg">
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/stefan/workspace/AndroidStudioProjects/AmpacheAlbumPlayer/app/src/main/assets/logo_512x512.png"
+   inkscape:export-xdpi="173.39999"
+   inkscape:export-ydpi="173.39999">
   <defs
      id="defs2">
     <linearGradient
@@ -348,6 +351,15 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
+       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.065;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect815-2"
+       width="74.934998"
+       height="74.934998"
+       x="32.339611"
+       y="67.048668"
+       inkscape:export-xdpi="173.39999"
+       inkscape:export-ydpi="173.39999" />
+    <rect
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:0;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3565"
        width="24.851934"
@@ -360,7 +372,9 @@
        width="74.934998"
        height="74.934998"
        x="32.339611"
-       y="67.048668" />
+       y="67.048668"
+       inkscape:export-xdpi="173.39999"
+       inkscape:export-ydpi="173.39999" />
     <g
        id="g2817"
        transform="translate(-2.4730354,1.0948489e-6)">
