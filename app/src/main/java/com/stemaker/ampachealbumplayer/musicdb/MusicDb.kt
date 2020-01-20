@@ -89,4 +89,10 @@ object MusicDb {
         }
 
     fun getAlbumSortOrder(): Ampache.SortOrder = ampache.sortOrder
+
+    fun getAlbumSortOrderAsTextId() =
+        when(ampache.sortOrder) {
+            Ampache.SortOrder.NAME -> R.string.album_name
+            Ampache.SortOrder.ARTIST -> R.string.artist
+        }
 }

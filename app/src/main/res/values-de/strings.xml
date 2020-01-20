@@ -20,4 +20,7 @@
     <string name="ok">OK</string>
     <string name="cancel">Abbrechen</string>
     <string name="old_dev_no_enc">Passwort kann nicht verschlüsselt auf dem Gerät gespeichert werden (Android vor 4.4)</string>
+    <string name="album_name">Album Name</string>
+    <string name="artist">Interpret</string>
+    <string name="switch_to_sort_order">Sortierung nach %1s</string>
 </resources>

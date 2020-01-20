@@ -10,6 +10,7 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.stemaker.ampachealbumplayer.musicdb.MusicDb
@@ -98,6 +99,8 @@ class AlbumViewActivity() : AppCompatActivity(), AlbumRecycleViewAdapter.PlayerR
                 MusicDb.toggleAlbumSortOrder()
                 viewAdapter.notifyDataSetChanged()
                 recyclerView.scrollToPosition(0)
+                val toast = Toast.makeText(this, getString(R.string.switch_to_sort_order, getString(MusicDb.getAlbumSortOrderAsTextId())), Toast.LENGTH_LONG)
+                toast.show()
                 true
             }
             R.id.settings-> {

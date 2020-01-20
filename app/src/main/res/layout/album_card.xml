@@ -31,34 +31,69 @@
             android:alpha="0.4"
             android:background="@android:color/transparent"
             />
+        <ImageView
+            android:id="@+id/album_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/album_cover"
+            app:layout_constraintLeft_toRightOf="@+id/album_cover"
+            app:layout_constraintRight_toLeftOf="@+id/album_title"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:src="@drawable/ic_album_black_24dp"
+            />
         <TextView
             android:id="@+id/album_title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toTopOf="@+id/album_cover"
-            app:layout_constraintLeft_toRightOf="@+id/album_cover"
+            app:layout_constraintTop_toTopOf="@+id/album_icon"
+            app:layout_constraintBottom_toBottomOf="@+id/album_icon"
+            app:layout_constraintLeft_toRightOf="@+id/album_icon"
             app:layout_constraintRight_toRightOf="@+id/album_constraint_container"
-            android:paddingLeft="8dp"
             android:textSize="20sp"
+            />
+        <ImageView
+            android:id="@+id/album_artist_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/album_title"
+            app:layout_constraintLeft_toLeftOf="@+id/album_icon"
+            app:layout_constraintRight_toLeftOf="@+id/album_artist"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/ic_mic_black_24dp"
             />
         <TextView
             android:id="@+id/album_artist"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@+id/album_title"
+            app:layout_constraintTop_toTopOf="@+id/album_artist_icon"
+            app:layout_constraintBottom_toBottomOf="@+id/album_artist_icon"
             app:layout_constraintLeft_toLeftOf="@+id/album_title"
             app:layout_constraintRight_toRightOf="@+id/album_constraint_container"
+            android:textSize="20sp"
+            />
+        <ImageView
+            android:id="@+id/album_num_tracks_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/album_artist"
+            app:layout_constraintLeft_toLeftOf="@+id/album_icon"
+            app:layout_constraintRight_toLeftOf="@+id/album_num_tracks"
             android:paddingLeft="8dp"
-            android:textSize="16sp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/ic_format_list_numbered_black_24dp"
             />
         <TextView
             android:id="@+id/album_num_tracks"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@+id/album_artist"
+            app:layout_constraintTop_toTopOf="@+id/album_num_tracks_icon"
+            app:layout_constraintBottom_toBottomOf="@+id/album_num_tracks_icon"
             app:layout_constraintLeft_toLeftOf="@+id/album_title"
             app:layout_constraintRight_toRightOf="@+id/album_constraint_container"
-            android:paddingLeft="8dp"
             android:textSize="16sp"
             />
     </androidx.constraintlayout.widget.ConstraintLayout>

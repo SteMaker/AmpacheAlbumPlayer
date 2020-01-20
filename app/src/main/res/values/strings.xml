@@ -20,4 +20,7 @@
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
     <string name="old_dev_no_enc">Cannot store encrypted password on device (Android older than 4.4)</string>
+    <string name="album_name">Album name</string>
+    <string name="artist">Artist</string>
+    <string name="switch_to_sort_order">Sort order set to %1s</string>
 </resources>
